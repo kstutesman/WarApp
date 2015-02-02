@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7272AFBC1A79B576000BD563 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7272AFBB1A79B576000BD563 /* AppDelegate.swift */; };
+		7272AFBE1A79B576000BD563 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7272AFBD1A79B576000BD563 /* ViewController.swift */; };
+		7272AFC11A79B576000BD563 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7272AFBF1A79B576000BD563 /* Main.storyboard */; };
+		7272AFC31A79B576000BD563 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7272AFC21A79B576000BD563 /* Images.xcassets */; };
+		7272AFC61A79B576000BD563 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7272AFC41A79B576000BD563 /* LaunchScreen.xib */; };
+		7272AFD21A79B576000BD563 /* WarAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7272AFD11A79B576000BD563 /* WarAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7272AFCC1A79B576000BD563 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7272AFAE1A79B576000BD563 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7272AFB51A79B576000BD563;
+			remoteInfo = WarApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7272AFB61A79B576000BD563 /* WarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7272AFBA1A79B576000BD563 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7272AFBB1A79B576000BD563 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7272AFBD1A79B576000BD563 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7272AFC01A79B576000BD563 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7272AFC21A79B576000BD563 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7272AFC51A79B576000BD563 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7272AFCB1A79B576000BD563 /* WarAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7272AFD01A79B576000BD563 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7272AFD11A79B576000BD563 /* WarAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarAppTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7272AFB31A79B576000BD563 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7272AFC81A79B576000BD563 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7272AFAD1A79B576000BD563 = {
+			isa = PBXGroup;
+			children = (
+				7272AFB81A79B576000BD563 /* WarApp */,
+				7272AFCE1A79B576000BD563 /* WarAppTests */,
+				7272AFB71A79B576000BD563 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7272AFB71A79B576000BD563 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7272AFB61A79B576000BD563 /* WarApp.app */,
+				7272AFCB1A79B576000BD563 /* WarAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7272AFB81A79B576000BD563 /* WarApp */ = {
+			isa = PBXGroup;
+			children = (
+				7272AFBB1A79B576000BD563 /* AppDelegate.swift */,
+				7272AFBD1A79B576000BD563 /* ViewController.swift */,
+				7272AFBF1A79B576000BD563 /* Main.storyboard */,
+				7272AFC21A79B576000BD563 /* Images.xcassets */,
+				7272AFC41A79B576000BD563 /* LaunchScreen.xib */,
+				7272AFB91A79B576000BD563 /* Supporting Files */,
+			);
+			path = WarApp;
+			sourceTree = "<group>";
+		};
+		7272AFB91A79B576000BD563 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7272AFBA1A79B576000BD563 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7272AFCE1A79B576000BD563 /* WarAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7272AFD11A79B576000BD563 /* WarAppTests.swift */,
+				7272AFCF1A79B576000BD563 /* Supporting Files */,
+			);
+			path = WarAppTests;
+			sourceTree = "<group>";
+		};
+		7272AFCF1A79B576000BD563 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7272AFD01A79B576000BD563 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7272AFB51A79B576000BD563 /* WarApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7272AFD51A79B576000BD563 /* Build configuration list for PBXNativeTarget "WarApp" */;
+			buildPhases = (
+				7272AFB21A79B576000BD563 /* Sources */,
+				7272AFB31A79B576000BD563 /* Frameworks */,
+				7272AFB41A79B576000BD563 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WarApp;
+			productName = WarApp;
+			productReference = 7272AFB61A79B576000BD563 /* WarApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7272AFCA1A79B576000BD563 /* WarAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7272AFD81A79B576000BD563 /* Build configuration list for PBXNativeTarget "WarAppTests" */;
+			buildPhases = (
+				7272AFC71A79B576000BD563 /* Sources */,
+				7272AFC81A79B576000BD563 /* Frameworks */,
+				7272AFC91A79B576000BD563 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7272AFCD1A79B576000BD563 /* PBXTargetDependency */,
+			);
+			name = WarAppTests;
+			productName = WarAppTests;
+			productReference = 7272AFCB1A79B576000BD563 /* WarAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7272AFAE1A79B576000BD563 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Krystin Stutesman";
+				TargetAttributes = {
+					7272AFB51A79B576000BD563 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					7272AFCA1A79B576000BD563 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 7272AFB51A79B576000BD563;
+					};
+				};
+			};
+			buildConfigurationList = 7272AFB11A79B576000BD563 /* Build configuration list for PBXProject "WarApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7272AFAD1A79B576000BD563;
+			productRefGroup = 7272AFB71A79B576000BD563 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7272AFB51A79B576000BD563 /* WarApp */,
+				7272AFCA1A79B576000BD563 /* WarAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7272AFB41A79B576000BD563 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7272AFC11A79B576000BD563 /* Main.storyboard in Resources */,
+				7272AFC61A79B576000BD563 /* LaunchScreen.xib in Resources */,
+				7272AFC31A79B576000BD563 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7272AFC91A79B576000BD563 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7272AFB21A79B576000BD563 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7272AFBE1A79B576000BD563 /* ViewController.swift in Sources */,
+				7272AFBC1A79B576000BD563 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7272AFC71A79B576000BD563 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7272AFD21A79B576000BD563 /* WarAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7272AFCD1A79B576000BD563 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7272AFB51A79B576000BD563 /* WarApp */;
+			targetProxy = 7272AFCC1A79B576000BD563 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7272AFBF1A79B576000BD563 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7272AFC01A79B576000BD563 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7272AFC41A79B576000BD563 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7272AFC51A79B576000BD563 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7272AFD31A79B576000BD563 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7272AFD41A79B576000BD563 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7272AFD61A79B576000BD563 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WarApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7272AFD71A79B576000BD563 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WarApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7272AFD91A79B576000BD563 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WarAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WarApp.app/WarApp";
+			};
+			name = Debug;
+		};
+		7272AFDA1A79B576000BD563 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WarAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WarApp.app/WarApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7272AFB11A79B576000BD563 /* Build configuration list for PBXProject "WarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7272AFD31A79B576000BD563 /* Debug */,
+				7272AFD41A79B576000BD563 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7272AFD51A79B576000BD563 /* Build configuration list for PBXNativeTarget "WarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7272AFD61A79B576000BD563 /* Debug */,
+				7272AFD71A79B576000BD563 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7272AFD81A79B576000BD563 /* Build configuration list for PBXNativeTarget "WarAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7272AFD91A79B576000BD563 /* Debug */,
+				7272AFDA1A79B576000BD563 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7272AFAE1A79B576000BD563 /* Project object */;
+}
